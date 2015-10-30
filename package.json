@@ -6,15 +6,14 @@
   "dependencies": {
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
-    "node-uuid": "^1.4.3",
-    "zombie": "^4.2.1"
+    "node-uuid": "^1.4.3"
   },
   "devDependencies": {
     "mocha": "^2.3.3",
     "zombie": "^4.2.1"
   },
   "scripts": {
-    "test": "mocha --reporter spec --recursive"
+    "test": "mocha --timeout 15000 --reporter spec --recursive"
   },
   "repository": {
     "type": "git",
